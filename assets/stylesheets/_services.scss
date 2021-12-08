@@ -1,0 +1,32 @@
+.products-container {
+    border-bottom: 2px solid $textlight;
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
+    .product-img {
+        width: 30%;
+    }
+}
+.products-container:last-child {
+    border-bottom: none;
+    margin-bottom: 2rem;
+}
+.best {
+    span {
+        height: 30px;
+        width: 2px;
+        background: $pure;
+    }
+}
+
+.awards {
+    .award-img {
+        width: 20%;
+    }
+    h3 {
+        font-weight: 900;
+        padding: {
+            top: 1rem;
+            bottom: 1rem;
+        }
+    }
+}

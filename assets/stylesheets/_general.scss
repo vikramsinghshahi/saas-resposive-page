@@ -1,0 +1,109 @@
+
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Archivo', sans-serif;
+    line-height: 1.5;
+}
+
+*, *::before, 
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$heading: 1;
+@while $heading <= 6 {
+    h#{$heading} {
+        font-size: 3rem - ($heading * .35rem);
+    }
+    $heading : $heading + 1; 
+}
+ a {
+     text-decoration: none;
+     &:hover {
+       transform: scale(1.2);
+     }
+ }
+ p {
+   color: $heaven;
+ }
+   /* CONTAINER */
+   .container {
+    max-width: 65rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+ .padding {
+    padding: 4rem 0;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .section-heading {
+    text-align: center;
+    color: $secondary;
+    padding: 1rem 0 3rem 0;
+    margin-bottom: 3rem;
+    h2 {
+        font-weight: 700;
+        padding-bottom: 1rem;
+      }
+    p {
+        color: $heaven;
+    }  
+  }
+  img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 7px;
+  }
+  #active {
+    background: $primary;
+    padding: .55rem;
+    color: $pure;
+    display: inline-block;
+  }
+// BUTTON
+ .btn {
+     display: inline-block;
+     padding: .5rem 1rem;
+     border: 1px solid $primary;
+     &:hover {
+        background: complement($primary);
+    }
+ }
+.btn-primary {
+    border: none;
+    border-radius: 30px;
+    background-color: $primary;
+    color: $pure;
+    padding: .5rem 1rem;
+}
+.btn-secondry {
+    border-radius: 30px;
+    padding: .5rem 1rem;
+    color: $primary;
+    margin-top: 1rem;
+}
+.red {
+  color: $primary;
+}
+// HERO SECTIONS 
+
+.other-hero {
+  height: 25vh;
+  background: $primary;
+  h1 {
+      font-weight: 900;
+      color: $pure;
+  }
+  p {
+    font-weight: 100;
+    color: $pure;
+  }
+}

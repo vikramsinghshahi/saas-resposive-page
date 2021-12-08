@@ -1,0 +1,39 @@
+
+.pricing {
+    background: $light;
+    .section-heading {
+        width: 70%;
+        margin: auto auto;
+    }
+}
+.price-card-container {
+    margin-top: 4rem;
+}
+.price-card {
+    border: 2px solid rgb(219, 216, 216);
+    padding: 2rem;
+    h2 {
+      font-size: 4rem;
+      font-weight: 900;  
+    }
+    h4 {
+        padding-bottom: 1rem;
+    }
+    .includes  {
+        p {
+            padding-bottom: 1rem;
+            color: $secondary;
+        }
+        .btn {
+            margin-top: 1.5rem;
+        }
+    }
+}
+.faq-ques {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border: 2px solid rgb(219, 216, 216);
+    h5 {
+        padding-bottom: 1rem;
+    }
+}

@@ -1,0 +1,32 @@
+.contact-info {
+    background: $textlight;
+    h5 {
+        padding: 1rem;
+    }
+}
+.icon-container {
+    background: $pure;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    i {
+        font-size: 2.5rem;
+        color: $primary;
+    }
+}
+form {
+    padding-left: 1rem;
+    input, textarea {
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    textarea {
+        height: 14rem;
+    }
+    .btn {
+        width: 40%;
+        padding: .75rem 1rem;
+        align-self: center;
+    }
+}
